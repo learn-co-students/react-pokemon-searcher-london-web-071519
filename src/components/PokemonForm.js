@@ -47,8 +47,8 @@ class PokemonForm extends React.Component {
 
     let data =
     {
-      "height": 4,
-      "weight": 40,
+      "height": null,
+      "weight": null,
       "name": this.state.name,
       "abilities": [
         null
@@ -89,8 +89,6 @@ class PokemonForm extends React.Component {
         "back": this.state.backUrl
       }
     }
-
-
 
 
 
