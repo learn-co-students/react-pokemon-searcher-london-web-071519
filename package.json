@@ -11,7 +11,8 @@
     "semantic-ui-react": "^0.77.0"
   },
   "scripts": {
-    "start": "json-server --watch db.json & PORT=3001 react-scripts start",
+    "start": "react-scripts start",
+    "jsons": "json-server -w db.json -p 4000",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
